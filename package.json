@@ -1,0 +1,19 @@
+{
+    "name": "podman-nodets-template",
+    "version": "1.0.0",
+    "description": "A blank template for managing a nodeTS server of any kind with podman",
+    "license": "Apache-2.0",
+    "author": "ynot01",
+    "type": "module",
+    "main": "",
+    "scripts": {
+    },
+    "devDependencies": {
+        "eslint": "9.19.0",
+        "prettier": "3.4.2",
+        "typescript-eslint": "^8.22.0"
+    },
+    "dependencies": {
+        "tsx": "^4.19.2"
+    }
+}
