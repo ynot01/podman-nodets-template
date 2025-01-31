@@ -18,7 +18,7 @@ Note that `.ps1` files are Powershell files, so Powershell is required to run th
 
 #
 
-To run code without virtualization, run `tsx ./src/index.ts`
+To run code without virtualization, run `npx tsx ./src/index.ts`
 
 To run in a container, run:
 
