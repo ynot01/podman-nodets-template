@@ -14,11 +14,11 @@ jobs:
 
       - name: Update package database
         run:
-          apt-get update -y
+          sudo apt-get update -y
 
       - name: Install dependencies
         run:
-          apt-get install -y podman
+          sudo apt-get install -y podman
 
       - name: Build image
         run:
