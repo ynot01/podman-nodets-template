@@ -12,9 +12,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Update package database
         run:
           apt-get update -y
+
+      - name: Install dependencies
+        run:
           apt-get install -y podman
 
       - name: Build image
