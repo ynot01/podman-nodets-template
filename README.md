@@ -2,6 +2,8 @@
 
 A template for managing a NodeTS server with podman
 
+Made for myself while learning to use podman
+
 ## Testing & Deploying
 
 `git clone https://github.com/ynot01/podman-nodets-template.git` [git here](https://git-scm.com/)
